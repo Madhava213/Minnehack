@@ -70,7 +70,8 @@ flutter:
 
         - asset: assets/fonts/CircularStd-Bold.ttf
           weight: 900
-
+    - family: Roboto
+      fonts:
         - asset: assets/fonts/Roboto-Black.ttf
           weight: 500
 
