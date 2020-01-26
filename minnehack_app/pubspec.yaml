@@ -70,5 +70,15 @@ flutter:
 
         - asset: assets/fonts/CircularStd-Bold.ttf
           weight: 900
+
+        - asset: assets/fonts/Roboto-Black.ttf
+          weight: 500
+
+        - asset: assets/fonts/Roboto-Bold.ttf
+          weight: 900
+
+        - asset: assets/fonts/Roboto-Medium.ttf
+          weight: 400    
+
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
