@@ -34,4 +34,5 @@ class AppColors {
   static const Color flatwhite = Color(0xFFFCFCFC);
   static const Color litgray = Color(0xFFAEAEBA);
   static const Color lightgray = Color(0xFFDCDCDA);
+  static const Color navyblue = Color(0xFF2B3D53);
 }
