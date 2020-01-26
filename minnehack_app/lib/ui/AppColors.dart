@@ -29,5 +29,9 @@ class AppColors {
   static const Color prussianBlue = Color(0xFF0B3954);
   static const Color lapisLazuli = Color(0xFF2660A4);
   static const Color whiteSmoke = Color(0xFFEDF7F6);
-
+  static const Color mattblack = Color(0xFF3F3F3F);
+  static const Color darkgray = Color(0xFFE7E7E5);
+  static const Color flatwhite = Color(0xFFFCFCFC);
+  static const Color litgray = Color(0xFFAEAEBA);
+  static const Color lightgray = Color(0xFFDCDCDA);
 }

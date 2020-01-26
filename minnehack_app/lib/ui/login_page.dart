@@ -55,7 +55,7 @@ class _LoginPageState extends State<LoginPage> {
           Navigator.of(context).pushReplacementNamed("/home");
         },
         padding: EdgeInsets.all(12),
-        color: Colors.lightBlueAccent,
+        color: AppColors.mattblack,
         child: Text('Log In', style: TextStyle(color: Colors.white)),
       ),
     );
@@ -81,17 +81,13 @@ class _LoginPageState extends State<LoginPage> {
     }
 
     return Scaffold(
-      appBar: GradientAppBar(
-        elevation: 10.0,
-        gradient: LinearGradient(colors: [Colors.teal, Colors.blue]),
-        title: Text('Volera'),
-      ),
-      backgroundColor: AppColors.mintGreen,
+      backgroundColor: AppColors.darkgray,
       body: Center(
         child: ListView(
           shrinkWrap: true,
           padding: EdgeInsets.only(left: 24.0, right: 24.0),
           children: <Widget>[
+            Text("Better World",style:TextStyle(fontStyle: Roboto-Black.ttf));
             logo,
             SizedBox(height: 48.0),
             email,
